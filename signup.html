@@ -37,27 +37,38 @@
             <div class="input-group-container">
               <div class="input-group">
                 <label for="firstname">First Name</label>
-                <input type="text" id="firstname" name="firstname" />
+                <input type="text" id="firstname" name="firstname" required />
               </div>
               <div class="input-group">
                 <label for="lastname">Last Name</label>
-                <input type="text" id="lastname" name="lastname" />
+                <input type="text" id="lastname" name="lastname" required />
               </div>
               <div class="input-group">
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" />
+                <input type="email" id="email" name="email" required />
               </div>
               <div class="input-group">
                 <label for="phone">Phone Number</label>
-                <input type="text" id="phone" name="phone" pattern="[0-9+]" />
+                <input
+                  type="text"
+                  id="phone"
+                  name="phone"
+                  pattern="[0-9]"
+                  required
+                />
               </div>
               <div class="input-group">
                 <label for="password">Password</label>
-                <input type="password" id="password" name="password" />
+                <input type="password" id="password" name="password" required />
               </div>
               <div class="input-group">
                 <label for="confirm-pw">Confirm Password</label>
-                <input type="password" id="confirm-pw" name="confirm-pw" />
+                <input
+                  type="password"
+                  id="confirm-pw"
+                  name="confirm-pw"
+                  required
+                />
               </div>
             </div>
           </div>
